@@ -1,0 +1,9 @@
+/* OVERRIDE MATHJAX CSS BEGIN */
+
+.mjx-chtml {
+    overflow-x: scroll
+}
+
+mjx-container[jax="CHTML"] {
+    overflow-x: scroll;
+}
