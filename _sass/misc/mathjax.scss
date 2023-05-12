@@ -6,3 +6,10 @@ mjx-container[jax="CHTML"] {
         overflow-y: hidden;
     }
 }
+
+.mjx-chtml {
+    @include media-query($on-laptop) {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+}
