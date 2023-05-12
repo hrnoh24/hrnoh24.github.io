@@ -40,7 +40,7 @@ author: hrnoh24
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
+copyright: "Noh's AI Lab (cleft) 2023-{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
   거인의 어깨 위에 서서...
@@ -208,6 +208,13 @@ yat:
 markdown: kramdown
 kmarkdown:
   input: GFM
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 plugins:
   - jekyll-feed
